@@ -13,3 +13,4 @@ yfinance
 lxml
 langchain-tavily
 wikipedia
+structlog
