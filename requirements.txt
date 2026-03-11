@@ -15,3 +15,4 @@ langchain-tavily
 wikipedia
 structlog
 langchain-groq
+jinja2
