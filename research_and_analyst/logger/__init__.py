@@ -1,3 +1,3 @@
-from research_and_analyst.logger.custom_logger import AppLogger
-
-__all__ = ["AppLogger"]
+from .custom_logger import CustomLogger
+# Create a single shared logger instance
+GLOBAL_LOGGER = CustomLogger().get_logger("research_and_analyst")

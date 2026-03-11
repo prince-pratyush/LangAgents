@@ -1,0 +1,25 @@
+
+llm:
+  groq:
+    provider: "groq"
+    model_name: "llama-3.3-70b-versatile"
+    temperature: 0
+    max_output_tokens: 2048
+
+  google:
+    provider: "google"
+    model_name: "gemini-2.0-flash"
+    temperature: 0
+    max_output_tokens: 2048
+
+  openai:
+    provider: "openai"
+    model_name: "gpt-4o"
+    temperature: 0
+    max_output_tokens: 2048
+
+  anthropic:
+    provider: "anthropic"
+    model_name: "claude-sonnet-4-6"
+    temperature: 0
+    max_output_tokens: 2048
